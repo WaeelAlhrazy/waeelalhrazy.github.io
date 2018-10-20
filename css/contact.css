@@ -1,0 +1,73 @@
+body{
+background-image:url('../images/barcelonalogg.gif');
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center center;
+postion: relative;
+
+}
+nav{
+height: 80px;
+width:100%;
+background-color: darkblue;
+line-height: 60px;
+
+}
+
+nav h1{
+float: left;
+font-family:cursive;
+font-size:30px;
+color: yellow;
+margin-left: 10px;
+line-height:40px;
+}
+
+nav ul {
+float: right;
+margin-right: 30px;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+transition: 0.5s all;
+
+}
+nav ul li:hover{
+background-color:red;
+}
+nav ul li a{
+text-decoration: none;
+color: yellow;
+padding: 30px;
+}
+h1{
+font-family: cursive;
+color: blue;
+padding: 0;
+text-align: center;
+}
+
+article.cov{
+overflow: center auto;
+width: 800px auto;
+height:500px;
+background-color: yellow;
+opacity:0.9;
+box-shadow: 1px 1px 5px 1px darkblue;
+margin: 0 auto;
+padding: 40px;
+padding-top: 50px;
+filter: alpha(opacity=40);
+}
+
+#form {
+display: inline-block;
+width: 100%;
+}
+form, fieldset{
+color: blue;
+font-family: cursive;
+}
+
+

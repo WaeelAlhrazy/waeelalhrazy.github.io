@@ -1,0 +1,51 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+                <title> Contact </title> 
+		<link rel="stylesheet" type="text/css" href= "../css/contact.css">
+	</head>
+	 	<body>
+	
+	<nav>
+	<header>
+	<h1>Bo Mistykel</h1>
+	</header>
+		<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="blogPage.html">Sport News</a></li>
+		<li><a href="about.html">About</a></li>
+		</ul> 
+	</nav>
+		<article class="cov">
+		<h1>Contact Us</h1>
+		<hr>
+		
+		<form action ="app" method="post">
+			<fieldset>
+		<legend> Ask your question </legend>
+		<label> Type: </label>
+		<select name="selected_type">
+		<option value="Question" selected>Question</option>
+		<option value="Inquiry">Inquiry</option>
+		<option value="Other">Other</option>
+		</select><br>
+
+		Name: <input type="text"><br>
+  		<label>Questions: </label> <br>
+		<textarea rows="6" cols="30" name="question"></textarea>
+		<br>
+		</fieldset>
+		</div>
+		</br>
+		
+		<fieldset>
+		<legend> How should I contact you?</legend>
+		<label>Telephone <input type="text"></label><br>
+		<label>Email: <input type="text"></label><br>
+		</fieldset><br>
+		 <input id="send_button" type="submit" value="Send">
+		</form>
+		</article>
+		</body>
+</html>

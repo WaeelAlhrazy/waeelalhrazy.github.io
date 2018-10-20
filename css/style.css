@@ -1,0 +1,44 @@
+body{
+background-image:url('../images/barcelonalogg.gif');
+height:auto;
+weidth:auto;
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+
+nav{
+height: 80px;
+width:100%;
+background-color: darkblue;
+line-height: 60px;
+
+}
+
+nav h1{
+float: left;
+font-family:cursive;
+font-size:30px;
+color: yellow;
+margin-left: 10px;
+line-height:40px;
+}
+
+nav ul {
+float: right;
+margin-right: 30px;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+transition: 0.5s all;
+
+}
+nav ul li:hover{
+background-color:red;
+}
+nav ul li a{
+text-decoration: none;
+color: yellow;
+padding: 30px;
+}
