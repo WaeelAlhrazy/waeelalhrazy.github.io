@@ -1,0 +1,18 @@
+#Team
+
+Designer & Developer: Waeel Hussein ALhrazy
+Site:https://waeelalhrazy.github.io
+Github: https://github.com/waeelalhrazy
+Location: Växjö, Sweden.
+
+---
+
+# Website tools
+
+- Git + Github.
+- Html + Css
+
+# Hosting 
+
+- Github <https://github.com>
+	
